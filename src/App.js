@@ -1,7 +1,8 @@
 import React from 'react';
+import Header from './lib/components/Header';
 
 const App = () => (
-  <h1>Test</h1>
+  <Header />
 )
 
 export default App;
