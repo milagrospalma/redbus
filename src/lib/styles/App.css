@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #E2AF10; */
+}
+
+a {
+  color: #6c757d;
+}
+
+ul.nav-tabs .nav-link.active {
+  border-color: #F0D787 #F0D787 #FFF;
+}
+
+ul.nav-tabs {
+  /* E2AF10 */
+  border-bottom: 1px solid #F0D787;
+}
+
+.mtb-1 {
+  margin: 1em 0;
+}
