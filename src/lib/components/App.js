@@ -5,6 +5,7 @@ import Route from 'react-router-dom/Route';
 import url from '../assets/images/pago-efectivo.png';
 import PaymentOnline from './PaymentOnline';
 import PaymentCash from './PaymentCash';
+import PurchaseDetails from './PurchaseDetails';
 import Footer from './Footer';
 
 const App = () => (
@@ -38,6 +39,7 @@ const App = () => (
         </div>
       </header>
       <main>
+        <PurchaseDetails />
         <Route path="/" exact component={PaymentOnline} />
         <Route path="/payment-cash" exact component={PaymentCash} />
       </main>

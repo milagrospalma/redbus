@@ -1,0 +1,17 @@
+.details {
+  border-radius: 2em;
+  margin: .5em;
+}
+
+.code-box {
+  background-color: #E2AF10;
+  color: #FFF;
+}
+
+.amount-box {
+  background-color: #F6F4F4;
+}
+
+.expiry-box {
+  background-color: #FFD87F;
+}
