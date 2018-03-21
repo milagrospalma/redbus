@@ -1,0 +1,32 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: .5em;
+}
+
+footer .btn-outline-warning {
+  border-color: #E2AF10;
+  border-radius: .6rem;
+  color: #E2AF10;
+  font-size: 1.2em;
+  margin: 0 .5em;
+  padding: .1rem .8rem;
+}
+
+p {
+  color: #6C757D;
+  display: inline-block;
+  font-size: .7em;
+  font-weight: 600;
+  height: auto;
+  margin: 0;
+}
+
+.img-container {
+  display: inline-block;
+  width: 50%;
+}
+
+.email {
+  color: #E2AF10;
+}

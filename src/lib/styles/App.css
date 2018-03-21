@@ -1,20 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-color: #E2AF10; */
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
 }
 
-a {
-  color: #6c757d;
+header {
+  padding-top: 0.5em;
+}
+
+.nav-link {
+  color: #6C757D;
+  padding: .3rem .8rem;
 }
 
 ul.nav-tabs .nav-link.active {
-  border-color: #F0D787 #F0D787 #FFF;
+  border-color: #E2AF10 #E2AF10 #FFF;
+  border-radius: .2rem;
 }
 
 ul.nav-tabs {
-  /* E2AF10 */
   border-bottom: 1px solid #F0D787;
+  font-size: .9em;
 }
 
 .mtb-1 {
