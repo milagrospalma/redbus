@@ -1,10 +1,12 @@
 import React from 'react';
+import '../styles/Payment.css';
 import Carrousel from './Carrousel';
+import CashButton from './BtnCash';
 
 const PaymentCash = () => (
   <div className="container">
     <div className="row">
-      <div className="col-12">
+      <div className="col-12 method">
         <p>Selecciona dónde quieres pagar:</p>
         <Carrousel />
         <p>Puedes pagar desde la Web o App móvil del Banco.</p>
@@ -12,13 +14,14 @@ const PaymentCash = () => (
     </div>
     <div className="row">
       <div className="col-12">
-        <p>Instrucciones de Pago</p>
+        <p className="subtitle font-weight-bold">Instrucciones de Pago</p>
         {/* <BriefingSection /> */}
+        <p>Cash</p>
       </div>
     </div>
     <div className="row">
       <div className="col-12">
-        {/* <OnlineButton /> */}
+        <CashButton />
       </div>
       <div>
       </div>

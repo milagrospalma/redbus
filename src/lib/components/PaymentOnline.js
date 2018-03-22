@@ -1,24 +1,25 @@
 import React from 'react';
+import '../styles/Payment.css';
+import Carrousel from './Carrousel';
+import OnlineButton from './BtnOnline';
 
 const PaymentOnline = () => (
   <div className="container">
     <div className="row">
-      <div className="col-12">
+      <div className="col-12 method">
         <p>Selecciona dónde quieres pagar:</p>
-        {/* <Carrousel /> */}
+        <Carrousel />
       </div>
     </div>
     <div className="row">
       <div className="col-12">
-        <p className="subtitle">Instrucciones de Pago</p>
-        {/* <BriefingSection /> */}
+        <p className="subtitle font-weight-bold">Instrucciones de Pago</p>
+        <p>Online</p>
       </div>
     </div>
     <div className="row">
       <div className="col-12">
-      {/* <OnlineButton /> */}
-      </div>
-      <div>
+        <OnlineButton />
       </div>
     </div>
   </div>

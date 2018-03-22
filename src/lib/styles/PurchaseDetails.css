@@ -1,6 +1,20 @@
 .details {
-  border-radius: 2em;
   margin: .5em;
+}
+
+.details p {
+  font-size: .5em;
+  margin-bottom: .5em;
+}
+
+.details div:nth-child(3) p:first-child {
+   margin-bottom: 1.3em;
+}
+
+
+.code-box, .amount-box, .expiry-box {
+  padding-top: .5em;
+  padding-bottom: .5em; 
 }
 
 .code-box {
@@ -10,6 +24,7 @@
 
 .amount-box {
   background-color: #F6F4F4;
+  text-transform: uppercase;
 }
 
 .expiry-box {
