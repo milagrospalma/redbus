@@ -1,0 +1,13 @@
+li {
+  list-style: none;
+}
+
+.slider {
+  width: 100vw;
+  height: 10vh;
+  outline: 1px solid chocolate;
+}
+
+.slick-list {
+  display: none;
+}
