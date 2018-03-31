@@ -14,7 +14,7 @@ const PaymentOnline = () => (
     <div className="row">
       <div className="col-12">
         <p className="subtitle font-weight-bold">Instrucciones de Pago</p>
-        <p>Online</p>
+        <p>Data online</p>
       </div>
     </div>
     <div className="row">
