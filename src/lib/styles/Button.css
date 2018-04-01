@@ -1,0 +1,15 @@
+a.goto {
+  background-color: #D84F57;
+  border-color: #D84F57;
+  color: #FFF;
+  width: 100%;
+}
+
+a.goto:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+a.goto span {
+  margin: 0 .5em;
+}

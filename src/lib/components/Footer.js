@@ -8,7 +8,7 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-md-4">
           <div className="d-flex justify-content-center align-items-center">
-            <p>Instrucciones vía </p>
+            <p>Instrucciones vía: </p>
             <button type="button" className="btn btn-outline-warning">
               <i className="fas fa-print" />
             </button>
@@ -17,16 +17,13 @@ const Footer = () => (
         <div className="col-12 col-md-8">
           <div className="d-flex justify-content-center">
             <div className="col-7">
-              <p>Ayuda:
-                <span className="email font-weight-bold"> contacto@redbus.pe</span>
-              </p>
+              <p>Ayuda: <a className="email font-weight-bold" href="mailto:contacto@redbus.pe">contacto@redbus.pe</a></p>
             </div>
             <div className="col-5">
               <p>Pago vía: </p>
                 <div className="img-container">
                   <img className="img-fluid" src={url} alt="Pago Efectivo" />
                 </div>
-              
             </div>
           </div>
         </div>

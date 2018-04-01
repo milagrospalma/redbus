@@ -9,11 +9,12 @@ const PaymentOnline = () => (
       <div className="col-12 method">
         <p>Selecciona dónde quieres pagar:</p>
         <Carrousel />
+        <p>Puedes pagar desde la Web o App móvil del Banco.</p>
       </div>
     </div>
     <div className="row">
       <div className="col-12">
-        <p className="subtitle font-weight-bold">Instrucciones de Pago</p>
+        <p className="subtitle">Instrucciones de Pago</p>
         <p>Data online</p>
       </div>
     </div>

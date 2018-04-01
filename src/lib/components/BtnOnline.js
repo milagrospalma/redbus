@@ -1,9 +1,13 @@
 import React from 'react';
+import '../styles/Button.css';
 
 const OnlineButton = () => (
-  <button type="button" className="btn btn-danger">
+  <a className="btn goto" href="">
+    <span>
+      <i className="fas fa-arrow-right"></i>
+    </span>
     Ir a banca por internet
-  </button>
+  </a>
 )
 
 export default OnlineButton;

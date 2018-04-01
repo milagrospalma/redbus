@@ -14,7 +14,7 @@ const PaymentCash = () => (
     </div>
     <div className="row">
       <div className="col-12">
-        <p className="subtitle font-weight-bold">Instrucciones de Pago</p>
+        <p className="subtitle">Instrucciones de Pago</p>
         {/* <BriefingSection /> */}
         <p>Cash</p>
       </div>
