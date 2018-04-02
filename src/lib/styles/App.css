@@ -27,3 +27,7 @@ ul.nav-tabs {
 .mtb-1 {
   margin: 1em 0;
 }
+
+main {
+  height: 70vh;
+}

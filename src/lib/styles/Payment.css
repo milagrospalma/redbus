@@ -3,5 +3,10 @@
 }
 
 .subtitle {
+  font-size: 1.25em;
   color: #E2AF10;
 }
+
+/* .container.pay {
+  height: 60vh;
+} */
